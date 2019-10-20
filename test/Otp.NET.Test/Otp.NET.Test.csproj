@@ -1,9 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-
     <IsPackable>false</IsPackable>
+    <RootNamespace>OtpNet.Test</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,6 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Otp.NET\Otp.NET.csproj" />
+    <ProjectReference Include="..\..\src\Otp.NET\Otp.NET.csproj" />
   </ItemGroup>
 </Project>
